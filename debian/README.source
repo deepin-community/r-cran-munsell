@@ -1,0 +1,52 @@
+Copyright of "inst/raw/real.dat"
+--------------------------------
+
+The file "inst/raw/real.dat" was obtained by the upstream author Charlotte
+Wickham from "http://www.cis.rit.edu/mcsl/online/munsell.php". In her mail [1]
+she writes that she believes that the data is not protected by copyright.
+Benjamin Eikel contacted the Munsell Color Science Laboratory and got an
+unclear answer [2] concerning the copyright of the data.
+
+[1]
+------------------------------------------------------------------------------
+Date: Mon, 19 Aug 2013 11:29:44 -0700
+From: Charlotte Wickham <cwickham@gmail.com>
+To: Faheem Mitha <faheem@faheem.info>
+Subject: Re: Debian enquiry about data files in munsell
+
+I obtained real.dat from http://www.cis.rit.edu/mcsl/online/munsell.php 
+which is a digitization of Table 1 in:   S. M. NEWHALL, D. NICKERSON, and 
+D. B. JUDD. Final report of the o.s.a. subcommittee on the spacing of the 
+munsell colors. J. Opt. Soc. Am., 33(7):385–411, 07 1943.
+
+It shouldn't be copyrighted for two reasons: (1) it's data, (2) it's 
+produced by employees of the federal govt,  but I don't have any proof of 
+that.
+
+I'm updating my package documentation to improve the description of the 
+source data.
+
+Charlotte
+------------------------------------------------------------------------------
+
+[2]
+------------------------------------------------------------------------------
+Betreff: Re: [General MCSL information] License for Munsell color data file 
+"real.dat"
+Datum: Dienstag, 3. September 2013, 11:01:12
+Von: Val Hemink <val@cis.rit.edu>
+An: debian@eikel.org
+
+The software is free to use for any purpose, "as is" only. We offer no 
+guarantee on the accuracy of the data.
+- Val
+
+Valerie Hemink, Staff Assistant and Notary Public
+Munsell Color Science Laboratory
+Rochester Institute of Technology
+54 Lomb Memorial Drive, COL-1075
+Rochester, New York 14623
+Voice: (585) 475-7189      
+Fax: (585) 475-4444
+------------------------------------------------------------------------------
+

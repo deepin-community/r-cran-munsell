@@ -1,0 +1,68 @@
+r-cran-munsell (0.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Standards-Version: 4.5.0 (routine-update)
+  * debhelper-compat 12 (routine-update)
+  * autopkgtest: s/ADTTMP/AUTOPKGTEST_TMP/g (routine-update)
+  * Add salsa-ci file (routine-update)
+  * Rules-Requires-Root: no (routine-update)
+  * Set upstream metadata fields: Archive, Bug-Database, Bug-Submit,
+    Repository, Repository-Browse.
+
+ -- Andreas Tille <tille@debian.org>  Sat, 16 May 2020 21:27:27 +0200
+
+r-cran-munsell (0.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version
+
+ -- Andreas Tille <tille@debian.org>  Thu, 14 Jun 2018 10:25:58 +0200
+
+r-cran-munsell (0.4.3-3) unstable; urgency=medium
+
+  * Team upload.
+  * Rebuild for R 3.5 transition
+  * debhelper 11
+  * Team upload
+  * Rebuild for R 3.5 transition
+  * Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-
+    lists.debian.net>
+  * Point Vcs fields to salsa.debian.org
+  * dh-update-R to update Build-Depends
+  * Secure URI in watch file
+
+ -- Andreas Tille <tille@debian.org>  Fri, 01 Jun 2018 11:38:21 +0200
+
+r-cran-munsell (0.4.3-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fix Vcs fields
+  * Standards-Version: 4.1.1
+  * Convert from cdbs to dh-r
+  * debhelper 10
+
+ -- Andreas Tille <tille@debian.org>  Fri, 29 Sep 2017 22:07:19 +0200
+
+r-cran-munsell (0.4.3-1) unstable; urgency=medium
+
+  [ Benjamin Eikel ]
+  * New upstream version 0.4.3
+  * d/control: Update description from DESCRIPTION
+  * d/control: Use canonical upstream URL
+  * d/control: Use secure Vcs URLs
+  * d/control: Update Standards-Version to 3.9.8
+  * d/copyright: Update with upstream information
+  * d/copyright: cme fix dpkg
+  * d/docs: NEWS was renamed to NEWS.md
+  * d/docs: Add new file README.md
+
+  [ Andreas Tille ]
+  * Add autopkgtest
+
+ -- Benjamin Eikel <debian@eikel.org>  Sun, 16 Oct 2016 14:18:40 +0200
+
+r-cran-munsell (0.4.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #700856)
+
+ -- Benjamin Eikel <debian@eikel.org>  Tue, 16 Jul 2013 10:20:48 +0200

@@ -1,0 +1,28 @@
+Source: r-cran-munsell
+Maintainer: Debian R Packages Maintainers <r-pkg-team@alioth-lists.debian.net>
+Uploaders: Benjamin Eikel <debian@eikel.org>
+Section: gnu-r
+Priority: optional
+Build-Depends: debhelper-compat (= 12),
+               dh-r,
+               r-base-dev,
+               r-cran-colorspace
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/r-pkg-team/r-cran-munsell
+Vcs-Git: https://salsa.debian.org/r-pkg-team/r-cran-munsell.git
+Homepage: https://cran.r-project.org/package=munsell
+Rules-Requires-Root: no
+
+Package: r-cran-munsell
+Architecture: all
+Depends: ${R:Depends},
+         ${misc:Depends}
+Recommends: ${R:Recommends}
+Suggests: ${R:Suggests}
+Description: Utilities for using Munsell colors
+ Provides easy access to, and manipulation of, the Munsell colors.
+ Provides a mapping between Munsell's original notation
+ (e.g., "5R 5/10") and hexadecimal strings suitable for use
+ directly in R graphics. Also provides utilities to explore slices
+ through the Munsell color tree, to transform Munsell colors and
+ display color palettes.
